@@ -9,6 +9,9 @@ const Main = () => {
 
             <div className='card-background'></div>
 
+            <div className='down-card-background'></div>
+            <div className='down2-card-background'></div>
+
 
 
             <div className='box-logo'>

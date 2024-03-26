@@ -21,12 +21,33 @@ main {
     height: 247.75px;
     background-color: #0414A0;
     border-radius: 10px;
-    position: absolute;
+    position: fixed;
 
     transform: rotate(-25deg);
     translate: -75px -33.73px;
 }
 
+.down-card-background {
+    width: 350px;
+    height: 247.75px;
+    background-color: #0414A0;
+    border-radius: 10px;
+    position: fixed;
+
+    transform: rotate(-45deg);
+    translate: -88px 650px;
+}
+
+.down2-card-background {
+    width: 350px;
+    height: 247.75px;
+    background-color: #0414A0;
+    border-radius: 10px;
+    position: fixed;
+
+    transform: rotate(-45deg);
+    translate: 120px 550px;
+}
 
 .box-logo {
     width: 100vw;
