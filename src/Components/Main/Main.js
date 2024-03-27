@@ -13,23 +13,34 @@ const Main = () => {
             <div className='down2-card-background'></div>
 
 
-
+            
             <div className='box-logo'>
                 <div className='mal-logo'>
                     <h1 className='text-logo'>MAL</h1>
                 </div>
 
-                <span className='title-logo'>My academic Library</span>
-
+                <span className='title-logo'>
+                    My academic Library
+                </span>
             </div>
-        
+            
+            <form className='container'>
                 <div className='box-input-login'>
-                    <input className='input-login' type='text' placeholder='Login'></input>
-                </div>
+                    <input className='input-login' type='text' placeholder='Login'>
+                    
+                    </input>
+            </div>
                 
-                <div className='box-input-password'>
-                    <input className='input-password' type='password' placeholder='Senha'></input>
-                </div>
+            <div className='box-input-password'>
+                <input className='input-password' type='password' placeholder='Senha'>
+
+                </input>
+            </div>
+
+            <div className='box-acess-button'>
+                <button className='acess-button'>Acessar</button>
+            </div>
+            </form>
 
         </main>
     )

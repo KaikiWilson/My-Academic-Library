@@ -94,6 +94,15 @@ main {
 
 
 
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
 
 .box-input-login {
     display: flex;
@@ -104,8 +113,6 @@ main {
     align-items: center;
     justify-content: center;
 
-    position: absolute;
-    translate: 54px 271px;
     padding: 10px;
 }
 
@@ -118,7 +125,62 @@ main {
     align-items: center;
     justify-content: center;
 
-    position: absolute;
-    translate: 54px 346px;
     padding: 10px;
+}
+
+.input-login, .input-password {
+    width: 251px;
+    height: 49px;
+    padding: 10px;
+    border: 0px solid transparent;
+    background-color: #e8e8e8cb;
+    color: #000;
+
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 #00000028;
+
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Inria Sans';
+
+    text-align: center;
+    transition: .5s;
+}
+
+.input-login:hover, .input-password:hover {
+    border: 1px solid rgba(0, 0, 0, 0.507);
+    width: 271px;
+    height: 69px;
+
+    transition: .5s;
+}
+
+.box-acess-button {
+    padding: 30px;
+}
+
+.acess-button {
+    width: 122px;
+    height: 33px;
+    background-color: #001affbd;
+    border-radius: 10px;
+    color: #fff;
+
+    border: 0px;
+    cursor: pointer;
+
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Inria Sans';
+
+    box-shadow: 0 4px 4px 0 #001aff96;
+
+    transition: .5s;
+}
+
+.acess-button:hover {
+    background-color: #e8e8e8cb;
+    color: #001affbd;
+
+    transition: .5s;
 }
