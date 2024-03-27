@@ -17,14 +17,15 @@ main {
 
 
 .card-background {
-    width: 350px;
+    width: 475px;
     height: 247.75px;
     background-color: #0414A0;
     border-radius: 10px;
     position: fixed;
 
     transform: rotate(-25deg);
-    translate: -75px -33.73px;
+    top: -40px;
+    left: -150px;
 }
 
 .down-card-background {
@@ -40,13 +41,14 @@ main {
 
 .down2-card-background {
     width: 350px;
-    height: 247.75px;
+    height: 350px;
     background-color: #0414A0;
     border-radius: 10px;
     position: fixed;
 
     transform: rotate(-45deg);
-    translate: 120px 550px;
+    left: 150px;
+    bottom: -200px;
 }
 
 .box-logo {
@@ -183,4 +185,119 @@ main {
     color: #001affbd;
 
     transition: .5s;
+}
+
+
+
+
+@media (min-width: 800px) {
+    
+    .mal-logo {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .text-logo {
+        font-size: 16px;
+        color: #fff;
+    }
+
+
+        
+    .title-logo {
+        font-size: large;
+        color: #000;
+    }
+    
+    .card-background::after {
+        content: "";
+        width: 450px;
+        height: 600px;
+        background-color: #0414A0;
+        border-radius: 10px;
+        position: fixed;
+    
+        transform: rotate(0deg);
+        top: 950px;
+        left: 900px;
+    }
+
+    .down-card-background::after {
+        content: "";
+        width: 350px;
+        height: 247.75px;
+        background-color: #0414A0;
+        border-radius: 10px;
+        position: fixed;
+    
+        transform: rotate(180deg);
+        top: -0px;
+        left: 1175px;
+        
+    }
+
+    .down2-card-background::after {
+        content: "";
+        width: 350px;
+        height: 247.75px;
+        background-color: #0414A0;
+        border-radius: 10px;
+        position: fixed;
+    
+        transform: rotate(180deg);
+        top: 20px;
+        left: 1150px;
+    }
+
+
+
+
+
+
+    .box-input-login {
+        width: 500px;
+        height: 75px;
+    }
+    
+    .box-input-password {
+        width: 500px;
+        height: 75px;
+        }
+    
+    .input-login, .input-password {
+        width: 350px;
+        height: 100px;
+        
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Inria Sans';
+    }
+    
+    .input-login:hover, .input-password:hover {
+        border: 1px solid rgba(0, 0, 0, 0.507);
+        width: 400px;
+        height: 130px;
+    
+        transition: .5s;
+    }
+    
+    .acess-button {
+        width: 150px;
+        height: 40px;
+        
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Inria Sans';
+    }
+    
+    .acess-button:hover {
+        background-color: #001aff1c;
+        color: #001affbd;
+    
+        transition: .5s;
+    }
+    
+
+
+
 }
